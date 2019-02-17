@@ -4,8 +4,7 @@
       <div class="col-sm-2">{{ item.title }}</div>
       <div class="col-sm-10 pt-1">
         <div class="progress">
-          <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="66" class="progress-bar bg-success" 
-          :style="{ backgroundColor: item.color, width: item.size}">
+          <div role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="66" class="progress-bar bg-success" :style="{ backgroundColor: item.color, width: item.size}">
           </div>
         </div>
       </div>
